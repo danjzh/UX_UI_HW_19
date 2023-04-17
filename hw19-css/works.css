@@ -1,0 +1,295 @@
+
+/*body----------------------------------*/
+body{
+    background: url(../hw18-images/fogtree1.jpg);
+    min-height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*text----------------------------------*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1{
+    display: flex;
+    text-align: center;
+    font-family: itc-benguiat, serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 320px;
+    height: 211px;
+    color: #C82121;
+}
+@media (min-width:576px){
+    h1{
+        display: flex;
+        text-align: center;
+        font-family: itc-benguiat, serif;
+        font-weight: 700;
+        font-style: normal;
+        text-transform: uppercase;
+        font-size: 100px;
+        height: 211px;
+        color: #C82121;
+}
+}
+@media (min-width:768px){
+    h1{
+        display: flex;
+        text-align: center;
+        font-family: itc-benguiat, serif;
+        font-weight: 700;
+        font-style: normal;
+        text-transform: uppercase;
+        font-size: 200px;
+        height: 211px;
+        color: #C82121;
+}
+}
+@media (min-width:992px){
+    h1{
+        display: flex;
+        text-align: center;
+        font-family: itc-benguiat, serif;
+        font-weight: 700;
+        font-style: normal;
+        text-transform: uppercase;
+        font-size: 320px;
+        height: 211px;
+        color: #C82121;
+}
+}
+
+h3{
+    font-family: itc-benguiat-condensed, serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 48px;
+    line-height: 283px;
+    color: #BCB8B5;
+}
+p{
+    font-family: Futura PT, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+}
+
+/*header----------------------------------*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+a{
+    text-decoration: none;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    vertical-align: center;
+
+    width: 23%;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: none;
+    text-decoration: none;
+    font-size:  24px;
+    text-transform: uppercase;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    padding: 1%;
+    color: #213130;
+}
+
+.nav-links{
+    list-style: none;
+}
+.nav-links li{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    color: #213130;
+    
+
+}
+.nav-links li a{
+    transition:all 0.3 ease 0s;
+}
+
+.nav-links li a:hover{
+    color:#C82121 ;
+}
+ul{
+    width: 50%;
+    margin-left: auto;
+    text-decoration: none;
+}
+
+header a{
+    color: #213130
+}
+
+header a:hover{
+    color: #C82121;
+}
+
+/*section----------------------------------*/
+.title-about{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 1267px;
+    width: 1267px;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    color:white;
+    background-color: #213130;
+    font-family: Futura PT, serif;
+    font-size: 24px;
+}
+button:hover{
+    background-color:#C82121 ;
+}
+
+section {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  }
+
+
+/*section----------------------------------*/
+
+.title-works{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 100vw;
+}
+.toollogo{
+    display: grid;
+    grid-column-end: auto;
+}
+
+/*card----------------------------------*/
+
+.flexContainer{
+    display: flex;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image{
+    width: 40%;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #C82121 ;
+    width: 60%;
+    padding: 48px;
+}
+.card-body h3{
+    margin-top: 0;
+    margin-bottom: .125em;
+}
+.card-body p{
+    color: #BCB8B5;
+}
+
+
+
+/*footer-----------------------------------*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    vertical-align: top;
+    background-color: #C82121;
+    color: white;
+    min-height: 50px;
+    position: absolute;
+    bottom: 0;    
+    width: 100%;  
+}
+
+footer p{
+    display: grid;
+    place-items: center;
+    font-family: itc-benguiat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+
+.email{
+    display: grid;
+    place-items: center;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+
+}
+.fa{
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover{
+    opacity: .7;
+    color: #213130;
+
+}
+.fa-linkedin{
+    background-color: #C82121;
+    color: white;
+}
+.copyright{
+    display: grid;
+    place-items: center;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+footer a{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 4px;
+    grid-auto-flow: column;
+    color: white;
+
+}
+footer a:hover{
+    color: #213130;
+}
