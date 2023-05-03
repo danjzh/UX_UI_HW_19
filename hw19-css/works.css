@@ -1,8 +1,8 @@
 
 /*body----------------------------------*/
 body{
-    background: url(../hw18-images/fogtree1.jpg);
-    min-height: 100%;
+    background: url(../hw19-images/fogtree1.jpg);
+    min-height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

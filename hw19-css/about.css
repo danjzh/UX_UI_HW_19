@@ -3,7 +3,7 @@
 
 
 
-/*background------------------background: linear-gradient(360deg, #C82121 50%), url(../hw18-images/fogtree1.jpg)50%;----------------*/
+/*background----------------------------------*/
 body{
     background: linear-gradient(transparent 50%, #C82121 40%) no-repeat;
     min-height: 100%;
@@ -14,9 +14,13 @@ body{
 }
 
 body{
-        background: linear-gradient(url(../hw18-images/fogtree1.jpg) 60%, #C82121 60%) no-repeat;
-        
+    background: url(../hw19-images/fogtree1.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 
 /*text------------------------------------*/

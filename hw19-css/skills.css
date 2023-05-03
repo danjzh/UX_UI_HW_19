@@ -1,7 +1,9 @@
 /*body----------------------------------*/
 body{
-    background: url(../hw18-images/fogtree1.jpg);
+    background: url(../hw19-images/fogtree1.jpg);
     min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -186,10 +188,9 @@ footer{
     background-color: #C82121;
     color: white;
     min-height: 50px;
-    position: absolute;
     bottom: 0;    
-    width: 100%;  
-    position: fixed;
+    width: 100%;
+    
 }
 
 footer p{
