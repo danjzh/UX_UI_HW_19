@@ -197,6 +197,11 @@ section {
 .flexContainer{
     display: flex;
 }
+.card-container{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
 .card{
     display: flex;
     flex-direction: column;
