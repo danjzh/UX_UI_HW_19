@@ -177,6 +177,39 @@ section {
     align-content: center;
   }
 
+/* card---------------------------------- */
+/* .flexContainer{
+    display: flex;
+}
+.card-container{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image{
+    width: 40%;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #C82121 ;
+    width: 60%;
+    padding: 48px;
+}
+.card-body h3{
+    margin-top: 0;
+    margin-bottom: .125em;
+}
+.card-body p{
+    color: #BCB8B5;
+} */
 
 
 /*footer-----------------------------------*/
@@ -243,3 +276,6 @@ footer a{
 footer a:hover{
     color: #213130;
 }
+
+
+

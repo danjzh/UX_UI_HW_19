@@ -233,7 +233,7 @@ section {
 
 /*footer-----------------------------------*/
 
-footer{
+/* footer{
     display: flex;
     justify-content: center;
     vertical-align: top;
@@ -294,4 +294,4 @@ footer a{
 }
 footer a:hover{
     color: #213130;
-}
+} */
